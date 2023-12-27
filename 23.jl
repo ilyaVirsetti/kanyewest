@@ -1,7 +1,7 @@
 using HorizonSideRobots
 include("functions.jl")
 
-r = Robot("field23.sit", animate = true)
+r = Robot("ilyha2009.sit", animate = true)
 
 function recursion_along!(robot, side)
     if !isborder(robot, side)
